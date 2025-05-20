@@ -5,7 +5,7 @@ using namespace std;
 
 struct Transaksi
 {
-    std::string nama;
+    string nama;
     int kuantiti;
     int harga;
 };
@@ -15,9 +15,9 @@ int main()
     std::vector<Transaksi> transaksi_array; // Array untuk menampung transaksi yang di input oleh User
 
     int n = 0; // n = banyak transaksi yang akan di inputkan oleh User
-    std::cout << "Masukkan jumlah transaksi yang akan di input: ";
-    std::cin >> n;
-    std::cout << std::endl;
+    cout << "Masukkan jumlah transaksi yang akan di input: ";
+    cin >> n;
+    cout << std::endl;
 
     // Proses Input transaksi oleh User sebanyak n-kali
     for (int i = 0; i < n; i++)
