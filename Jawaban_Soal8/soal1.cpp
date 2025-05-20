@@ -49,7 +49,7 @@ int main()
         Karyawan item_karyawan;
 
         string nama_item;
-        cout << "Nama: ";
+        cout << "\nNama: ";
         cin >> nama_item;
         item_karyawan.nama = nama_item;
 
